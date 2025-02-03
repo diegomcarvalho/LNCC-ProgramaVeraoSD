@@ -4,7 +4,7 @@ from parsl.config import Config
 from parsl.executors import ThreadPoolExecutor
 import sys
 
-config = config = Config(executors=[ThreadPoolExecutor()], run_dir=sys.argv[1])
+config = Config(executors=[ThreadPoolExecutor()], run_dir=sys.argv[1])
 
 parsl.load(config)
 

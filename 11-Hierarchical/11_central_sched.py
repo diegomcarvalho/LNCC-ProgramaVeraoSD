@@ -6,7 +6,7 @@ parsl.load()
 
 @bash_app
 def pi(tag, stdout="hello-stdout"):
-    return f"cd app; python 05_monte_carlo_pi.py {tag} > {tag}.txt"
+    return f"cd app; python3 05_monte_carlo_pi.py {tag} > {tag}.txt"
 
 
 # invoke the Python app and print the result

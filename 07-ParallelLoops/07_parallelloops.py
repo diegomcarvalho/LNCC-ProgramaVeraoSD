@@ -20,4 +20,4 @@ for i in range(1, 5):
 # Wait for all apps to finish and collect the results
 outputs = [r.result() for r in rand_numbers]
 
-print(outputs)
+print(sum(outputs))
